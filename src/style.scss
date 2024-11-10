@@ -1,6 +1,17 @@
-@import "../node_modules/swiper/scss/bundle";
-
 .swiper {
     width: 600px;
     height: 300px;
 }
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.swiper-slide{   /* added */
+    border-radius: 20px;        /* added */
+}   
