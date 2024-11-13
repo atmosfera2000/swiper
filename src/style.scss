@@ -1,17 +1,23 @@
+body {
+    background-color: black;
+}
+
 .swiper {
-    width: 600px;
-    height: 300px;
+    width: 400px;
+    padding: 0 400px;
+    //outline: 1px solid black;
 }
 
 .img {
     width: 100%;
-    height: auto;
+    vertical-align: bottom;
 }
 
 .h1 {
     text-align: center;
 }
 
-.swiper-slide{   /* added */
-    border-radius: 20px;        /* added */
-}   
+.swiper-slide {
+    cursor: grab;
+    border-radius: 10px;
+}
